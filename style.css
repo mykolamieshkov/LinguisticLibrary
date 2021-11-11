@@ -1,0 +1,72 @@
+.circle{
+    background-image: url("Logo.png");
+    background-repeat: no-repeat;
+    image-resolution:top;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    display: inline-block;
+margin: 0 auto;
+position: top; 
+}
+body {
+    margin: auto;
+    padding: auto;
+    background-color: black;
+    size: auto;
+    zoom: 25%;
+    position: static;
+}
+
+title {
+    background-color: orange;
+}
+
+
+hr {
+    border: 10px solid #FFD700;
+    border-radius: 5px;
+}
+hr::after {
+    border: 10px solid #FFD700;
+    border-radius: 5px;
+}
+img {
+    max-width: 100%;
+
+}
+p {
+width: 49%;
+float: left;
+color: whitesmoke;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 275%;
+}
+h4 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 450%;
+    color:#FFD700 ;
+}
+
+.column {
+    float: left;
+    width: 33.3;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+button {
+  background-color:  #FFD700;
+  border:dashed;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-block;
+  font-size: 175px;
+}
